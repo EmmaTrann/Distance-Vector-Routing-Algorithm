@@ -1,5 +1,4 @@
-package lab5.sectionb02.id7876069.entity;
-import lab5.sectionb02.id7876069.logic.NetworkSimulator;
+
 public class Entity0 extends Entity
 {    
     // Perform any necessary initialization in the constructor
@@ -23,8 +22,6 @@ public class Entity0 extends Entity
         distanceTable[3][3]=7;
         
         for(int d = 0; d < 4; d++){
-            //int a = Math.min(distanceTable[d][2], distanceTable[d][3]);
-            //minPath[d] = Math.min(distanceTable[d][1], a);
             minPath[d] = distanceTable[d][d];
             System.out.print("check" +  minPath[d]);
         }
@@ -61,10 +58,6 @@ public class Entity0 extends Entity
         //list of minPath. Compared distance d to node 2 and 3, then
         //which ever smaller get compared with node 1
         //which ever smaller get update to minPath
-        //for(int d = 0; d < 4; d++){
-          //  int a = Math.min(distanceTable[d][2], distanceTable[d][3]);
-            //minPath[d] = Math.min(distanceTable[d][1], a);
-        //}
         
         for(int d = 0; d < 4; d++){
             int a = Math.min(distanceTable[d][0], distanceTable[d][1]);
