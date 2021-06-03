@@ -1,5 +1,4 @@
-package lab5.sectionb02.id7876069.entity;
-import lab5.sectionb02.id7876069.logic.NetworkSimulator;
+
 public class Entity3 extends Entity
 {    
     // Perform any necessary initialization in the constructor
@@ -22,8 +21,6 @@ public class Entity3 extends Entity
         distanceTable[3][3]=0;
         
         for(int d = 0; d < 4; d++){
-            //int a = Math.min(distanceTable[d][2], distanceTable[d][1]);
-            //minPath[d] = Math.min(distanceTable[d][0], a);
             minPath[d] = distanceTable[d][d];
             
 
