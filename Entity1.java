@@ -1,5 +1,4 @@
-package lab5.sectionb02.id7876069.entity;
-import lab5.sectionb02.id7876069.logic.NetworkSimulator;
+
 public class Entity1 extends Entity
 {    
     // Perform any necessary initialization in the constructor
@@ -22,16 +21,12 @@ public class Entity1 extends Entity
         distanceTable[3][3]=999;
         
         for(int d = 0; d < 4; d++){
-            //int a = Math.min(distanceTable[d][2], distanceTable[d][3]);
-            //minPath[d] = Math.min(distanceTable[d][0], a);
             minPath[d] = distanceTable[d][d];
 
 
         }
-        //minPath[0] = distanceTable[0][0];
 
 
-        //System.out.print(minPath[0]); 
         //Sends the packet initial cost value to each other node.  
         //It starts at 1 to avoid sending the packet to Entity0.
         Packet dtPacket = new Packet(1, 0, minPath);
