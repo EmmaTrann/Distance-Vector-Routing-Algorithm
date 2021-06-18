@@ -1,7 +1,4 @@
-package lab5.sectionb02.id7876069.logic;
 
-
-import lab5.sectionb02.id7876069.entity.Event;
 
 public interface EventList
 {
