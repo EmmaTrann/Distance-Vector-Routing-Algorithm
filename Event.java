@@ -1,5 +1,4 @@
-package lab5.sectionb02.id7876069.entity;
-import lab5.sectionb02.id7876069.logic.NetworkSimulator;
+
 public class Event
 {
     private double time;
