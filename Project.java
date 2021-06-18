@@ -1,4 +1,3 @@
-package lab5.sectionb02.id7876069.logic;
 
 import java.io.*;
 public class Project
