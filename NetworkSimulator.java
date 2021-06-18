@@ -1,12 +1,4 @@
-package lab5.sectionb02.id7876069.logic;
 
-import lab5.sectionb02.id7876069.entity.Packet;
-import lab5.sectionb02.id7876069.entity.Entity1;
-import lab5.sectionb02.id7876069.entity.Entity0;
-import lab5.sectionb02.id7876069.entity.Entity;
-import lab5.sectionb02.id7876069.entity.Entity3;
-import lab5.sectionb02.id7876069.entity.Entity2;
-import lab5.sectionb02.id7876069.entity.Event;
 import java.util.Random;
 import java.util.Vector;
 import java.util.Enumeration;
